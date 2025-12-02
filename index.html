@@ -1,98 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redirecionando...</title>
-
-  <!-- UTMify Script -->
-  <script
-    src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-    data-utmify-prevent-xcod-sck
-    data-utmify-prevent-subids
-    async
-    defer
-  ></script>
-
-  <!-- TikTok Pixel Code -->
   <script>
-    window.tikTokPixelId = "691e8d8791b6d5ba7830ea41";
-    var a = document.createElement("script");
-    a.setAttribute("async", "");
-    a.setAttribute("defer", "");
-    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-tiktok.js");
-    document.head.appendChild(a);
+    location.replace("https://flexionpay.com/redirect/cv-47");
   </script>
-
-  <!-- Captura UTMs e redireciona -->
-  <script>
-    // Captura parâmetros UTM e ttclid
-    const urlParams = new URLSearchParams(window.location.search);
-    const ttclid = urlParams.get('ttclid');
-    const utm_source = urlParams.get('utm_source');
-    const utm_campaign = urlParams.get('utm_campaign');
-    const utm_medium = urlParams.get('utm_medium');
-    const utm_content = urlParams.get('utm_content');
-    const utm_term = urlParams.get('utm_term');
-
-    console.log('✅ Parâmetros capturados:', { ttclid, utm_source, utm_campaign, utm_medium, utm_content, utm_term });
-
-    // Constrói URL com parâmetros UTM
-    let redirectUrl = 'https://flexionpay.com/redirect/cv-47?';
-    const params = [];
-    
-    if (utm_source) params.push('utm_source=' + encodeURIComponent(utm_source));
-    if (utm_campaign) params.push('utm_campaign=' + encodeURIComponent(utm_campaign));
-    if (utm_medium) params.push('utm_medium=' + encodeURIComponent(utm_medium));
-    if (utm_content) params.push('utm_content=' + encodeURIComponent(utm_content));
-    if (utm_term) params.push('utm_term=' + encodeURIComponent(utm_term));
-    if (ttclid) params.push('ttclid=' + encodeURIComponent(ttclid));
-    
-    redirectUrl += params.join('&');
-
-    console.log('🔗 Redirecionando para:', redirectUrl);
-
-    // Redireciona instantaneamente
-    window.location.href = redirectUrl;
-  </script>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background: #ffffff;
-      color: #0088CC;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    .container {
-      text-align: center;
-    }
-
-    .message {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #0088CC;
-    }
-
-    .subtitle {
-      font-size: 0.9rem;
-      margin-top: 20px;
-      opacity: 0.9;
-      color: #0088CC;
-      font-weight: 600;
-    }
-  </style>
+  <meta http-equiv="refresh" content="0; url=https://flexionpay.com/redirect/cv-47">
 </head>
-<body>
-  <div class="container">
-    <div class="message">Processando...</div>
-    <div class="subtitle">Você será redirecionado em instantes</div>
-  </div>
-</body>
+<body></body>
 </html>
